@@ -1,0 +1,33 @@
+{
+  "pocket_option": {
+    "ssid": "",
+    "is_demo": true,
+    "wait_between_trades": 10,
+    "early_entry_seconds": 1.0,
+    "late_entry_grace_seconds": 5.0,
+    "timezone": "UTC-4"
+  },
+  "telegram": {
+    "api_id": null,
+    "api_hash": "",
+    "session_name": "pocket_bot_session",
+    "channels": []
+  },
+  "trading": {
+    "account_type": "demo",
+    "risk_mode": "fixed",
+    "risk_amount": 1.0,
+    "max_daily_trades": 100,
+    "max_daily_loss": 50.0,
+    "max_daily_loss_enabled": false,
+    "max_concurrent_trades": 5,
+    "martingale_enabled": false,
+    "martingale_multiplier": 2.0,
+    "martingale_steps": 2,
+    "martingale_cycles": 1
+  },
+  "logging": {
+    "log_level": "INFO",
+    "log_file": "pocket_bot.log"
+  }
+}
